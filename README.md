@@ -7,7 +7,8 @@ AndroidでKotlin 1.3のcoroutines(Async, Await)を使ってHTTP通信を非同�
 
 ### Getting Started
 
-This sample uses the Gradle build system. To build this project, use the "gradlew build" command or use "Import Project" in Android Studio.
+This sample uses the Gradle build system. 
+To build this project, use the "gradlew build" command or use "Import Project" in Android Studio.
 
 [Kotlin]: https://github.com/JetBrains/kotlin
 [qiita]: https://qiita.com/jonghyo/items/bf3e4e06022eebe8e3eb
