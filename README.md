@@ -3,6 +3,7 @@
 [![Kotlin 1.3](https://img.shields.io/badge/Kotlin-1.3-green.svg?style=flat)][Kotlin]
 
 AndroidでKotlin 1.3のcoroutines(Async, Await)を使ってHTTP通信を非同期処理するサンプルアプリです
+
 詳細は[Qiita記事][qiita]に記載しています
 
 ### Getting Started
