@@ -7,6 +7,7 @@ AndroidでKotlin 1.3のcoroutines(Async, Await)を使ってHTTP通信を非同�
 詳細は[Qiita記事][qiita]に記載しています
 
 ### Getting Started
+This sample is Android http request using Kotlin1.3 coroutines(Async, Await).
 
 This sample uses the Gradle build system. 
 
