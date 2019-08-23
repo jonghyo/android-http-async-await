@@ -3,7 +3,6 @@ package c.c.jonghyo.snippet
 import okhttp3.OkHttpClient
 import okhttp3.Request
 
-
 class HttpUtil {
     fun httpGET1(url : String): String? {
         val client = OkHttpClient()
@@ -12,6 +11,7 @@ class HttpUtil {
                 .build()
 
         val response = client.newCall(request).execute()
-        return response.body()?.string()
+        val body = response.body?.string()
+        return body
     }
 }
