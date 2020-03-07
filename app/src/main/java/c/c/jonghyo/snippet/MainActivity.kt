@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     fun onParallelGetButtonClick() = GlobalScope.launch(Dispatchers.Main) {
         val http = HttpUtil()
-        async(Dispatchers.Default) { http.httpGET1(URL) }.await().let {
+        async(Dispatchers.Default) { http.httpGet(URL) }.await().let {
             val result = Json.parse(it).asObject()
             val textView = findViewById(R.id.text) as TextView
             textView.setText(result.get("description").asObject().get("text").asString())

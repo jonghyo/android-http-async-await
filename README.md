@@ -1,6 +1,6 @@
 # android-http-async-await
 
-[![Kotlin 1.3.50](https://img.shields.io/badge/Kotlin-1.3.50-green.svg?style=flat)][Kotlin]
+[![Kotlin 1.3.70](https://img.shields.io/badge/Kotlin-1.3.70-green.svg?style=flat)][Kotlin]
 
 AndroidでKotlin 1.3のcoroutines(Async, Await)を使ってHTTP通信を非同期処理するサンプルアプリです
 
