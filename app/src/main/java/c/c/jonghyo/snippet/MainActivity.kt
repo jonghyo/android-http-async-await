@@ -15,7 +15,7 @@ import kotlinx.coroutines.launch
 
 
 class MainActivity : AppCompatActivity() {
-    val URL = "http://weather.livedoor.com/forecast/webservice/json/v1?city=400040"
+    val URL = "https://qiita.com/api/v2/items/bf3e4e06022eebe8e3eb"
     var result = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         async(Dispatchers.Default) { http.httpGet(URL) }.await().let {
             val result = Json.parse(it).asObject()
             val textView = findViewById(R.id.text) as TextView
-            textView.setText(result.get("description").asObject().get("text").asString())
+            textView.setText(result.get("likes_count").asInt().toString() + "LGTM!")
         }
     }
 }
