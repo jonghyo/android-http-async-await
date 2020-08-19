@@ -1,8 +1,8 @@
 # android-http-async-await
 
-[![Kotlin 1.3.72](https://img.shields.io/badge/Kotlin-1.3.72-green.svg?style=flat)][Kotlin]
+[![Kotlin 1.4.0](https://img.shields.io/badge/Kotlin-1.4.0-green.svg?style=flat)][Kotlin]
 
-AndroidでKotlin 1.3のcoroutines(Async, Await)を使ってHTTP通信を非同期処理するサンプルアプリです
+AndroidでKotlin 1.4.0のcoroutines(Async, Await)を使ってHTTP通信を非同期処理するサンプルアプリです
 
 詳細は[Qiita記事][qiita]に記載しています
 
